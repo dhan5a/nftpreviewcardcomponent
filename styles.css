@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+}
+
+
+:root {
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --very-dark-blue-main-bg: hsl(217, 54%, 11%);
+    --very-dark-blue-card-bg: hsl(216, 50%, 16%);
+    --very-dark-blue-line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 100px auto;
+    width: 50%;
+    background-color: hsl(217, 54%, 11%);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+.card {
+    margin: auto;
+    background-color: hsl(216, 50%, 16%);
+    display: block;
+    max-width: 300px;
+    padding: 20px;
+    overflow: hidden;
+    border-radius: 8px;
+    font-family: Outfit;
+}
+
+.nft-image img {
+    border-radius: 8px;
+}
+
+.header {
+    font-size: 20px;
+    padding-top: 16px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+
+.nft-bio {
+    font-size: 14px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+
+}
+
+.price-days-left {
+    display: flex;
+}
+
+.ethereum {
+    display: flex;
+    align-items: center;
+}
+
+.price {
+    color: hsl(178, 100%, 50%);
+    margin-left: 8px;
+    font-size: 14px;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.days-left {
+    margin-left: 8px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 14px;
+}
+
+
+.divider {
+    border-bottom: 0.1px solid hsl(215, 51%, 40%);
+    padding-top: 16px;
+}
+
+
+.creator {
+    display: flex;
+    align-items: center;
+    padding-top: 16px;
+    
+}
+
+.bio-picture {
+    max-width: 30px;
+    border-color: hsl(0, 0%, 100%);
+}
+
+.bio-picture img {
+    border:1px solid white; 
+    border-radius: 20px;
+}
+
+.created-by {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 14px;
+    padding-left: 12px;
+}
+
+.name {
+    color: hsl(0, 0%, 100%)
+}
