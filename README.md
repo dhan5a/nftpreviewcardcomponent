@@ -15,12 +15,6 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 I built a responsive NFT preview card component, utilising HTML5 and CSS3. 
 
-Some things to note:
-
-Compared to the design, I think I got the font-sizes wrong.
-
-Also, I wasn't able to use the root values for colours and used the hsl values in the code instead.
-
 ### The challenge
 
 Users should be able to:
